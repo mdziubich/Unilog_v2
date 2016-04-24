@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD66A2E1CCD62E9004E16CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD66A2D1CCD62E9004E16CE /* AppDelegate.swift */; };
+		5AD66A301CCD62E9004E16CE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD66A2F1CCD62E9004E16CE /* MainViewController.swift */; };
+		5AD66A331CCD62E9004E16CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD66A311CCD62E9004E16CE /* Main.storyboard */; };
+		5AD66A361CCD62E9004E16CE /* unilog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AD66A341CCD62E9004E16CE /* unilog.xcdatamodeld */; };
+		5AD66A381CCD62E9004E16CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD66A371CCD62E9004E16CE /* Assets.xcassets */; };
+		5AD66A3B1CCD62E9004E16CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD66A391CCD62E9004E16CE /* LaunchScreen.storyboard */; };
+		5AD66A461CCD62E9004E16CE /* unilogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD66A451CCD62E9004E16CE /* unilogTests.swift */; };
+		5AD66A511CCD62E9004E16CE /* unilogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD66A501CCD62E9004E16CE /* unilogUITests.swift */; };
+		5AD66A5F1CCD67A5004E16CE /* MainItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AD66A5E1CCD67A5004E16CE /* MainItemCell.xib */; };
+		5AD66A631CCD6834004E16CE /* MainItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD66A621CCD6834004E16CE /* MainItemCell.swift */; };
+		5AD66A671CCD6980004E16CE /* Screen Shot 2016-04-24 at 22.20.03 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD66A661CCD6980004E16CE /* Screen Shot 2016-04-24 at 22.20.03 2.png */; };
+		5AD66A691CCD6985004E16CE /* Screen Shot 2016-04-24 at 22.20.03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD66A681CCD6985004E16CE /* Screen Shot 2016-04-24 at 22.20.03.png */; };
+		5AD66A6B1CCD69CD004E16CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD66A6A1CCD69CD004E16CE /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AD66A421CCD62E9004E16CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD66A221CCD62E9004E16CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD66A291CCD62E9004E16CE;
+			remoteInfo = unilog;
+		};
+		5AD66A4D1CCD62E9004E16CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD66A221CCD62E9004E16CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD66A291CCD62E9004E16CE;
+			remoteInfo = unilog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AD66A2A1CCD62E9004E16CE /* unilog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unilog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD66A2D1CCD62E9004E16CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AD66A2F1CCD62E9004E16CE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5AD66A321CCD62E9004E16CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AD66A351CCD62E9004E16CE /* unilog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = unilog.xcdatamodel; sourceTree = "<group>"; };
+		5AD66A371CCD62E9004E16CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AD66A3A1CCD62E9004E16CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AD66A3C1CCD62E9004E16CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD66A411CCD62E9004E16CE /* unilogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unilogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD66A451CCD62E9004E16CE /* unilogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unilogTests.swift; sourceTree = "<group>"; };
+		5AD66A471CCD62E9004E16CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD66A4C1CCD62E9004E16CE /* unilogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unilogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD66A501CCD62E9004E16CE /* unilogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unilogUITests.swift; sourceTree = "<group>"; };
+		5AD66A521CCD62E9004E16CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD66A5E1CCD67A5004E16CE /* MainItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainItemCell.xib; sourceTree = "<group>"; };
+		5AD66A621CCD6834004E16CE /* MainItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainItemCell.swift; sourceTree = "<group>"; };
+		5AD66A661CCD6980004E16CE /* Screen Shot 2016-04-24 at 22.20.03 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-04-24 at 22.20.03 2.png"; sourceTree = "<group>"; };
+		5AD66A681CCD6985004E16CE /* Screen Shot 2016-04-24 at 22.20.03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-04-24 at 22.20.03.png"; sourceTree = "<group>"; };
+		5AD66A6A1CCD69CD004E16CE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD66A271CCD62E9004E16CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD66A3E1CCD62E9004E16CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD66A491CCD62E9004E16CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD66A211CCD62E9004E16CE = {
+			isa = PBXGroup;
+			children = (
+				5AD66A2C1CCD62E9004E16CE /* unilog */,
+				5AD66A441CCD62E9004E16CE /* unilogTests */,
+				5AD66A4F1CCD62E9004E16CE /* unilogUITests */,
+				5AD66A2B1CCD62E9004E16CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD66A2B1CCD62E9004E16CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD66A2A1CCD62E9004E16CE /* unilog.app */,
+				5AD66A411CCD62E9004E16CE /* unilogTests.xctest */,
+				5AD66A4C1CCD62E9004E16CE /* unilogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD66A2C1CCD62E9004E16CE /* unilog */ = {
+			isa = PBXGroup;
+			children = (
+				5AD66A611CCD67F3004E16CE /* ViewControllers */,
+				5AD66A601CCD67C9004E16CE /* View */,
+				5AD66A651CCD6851004E16CE /* Graphics */,
+				5AD66A641CCD683B004E16CE /* Others */,
+			);
+			path = unilog;
+			sourceTree = "<group>";
+		};
+		5AD66A441CCD62E9004E16CE /* unilogTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD66A451CCD62E9004E16CE /* unilogTests.swift */,
+				5AD66A471CCD62E9004E16CE /* Info.plist */,
+			);
+			path = unilogTests;
+			sourceTree = "<group>";
+		};
+		5AD66A4F1CCD62E9004E16CE /* unilogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD66A501CCD62E9004E16CE /* unilogUITests.swift */,
+				5AD66A521CCD62E9004E16CE /* Info.plist */,
+			);
+			path = unilogUITests;
+			sourceTree = "<group>";
+		};
+		5AD66A601CCD67C9004E16CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AD66A311CCD62E9004E16CE /* Main.storyboard */,
+				5AD66A5E1CCD67A5004E16CE /* MainItemCell.xib */,
+				5AD66A621CCD6834004E16CE /* MainItemCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5AD66A611CCD67F3004E16CE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AD66A2F1CCD62E9004E16CE /* MainViewController.swift */,
+				5AD66A6A1CCD69CD004E16CE /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5AD66A641CCD683B004E16CE /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				5AD66A371CCD62E9004E16CE /* Assets.xcassets */,
+				5AD66A391CCD62E9004E16CE /* LaunchScreen.storyboard */,
+				5AD66A3C1CCD62E9004E16CE /* Info.plist */,
+				5AD66A341CCD62E9004E16CE /* unilog.xcdatamodeld */,
+				5AD66A2D1CCD62E9004E16CE /* AppDelegate.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		5AD66A651CCD6851004E16CE /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				5AD66A681CCD6985004E16CE /* Screen Shot 2016-04-24 at 22.20.03.png */,
+				5AD66A661CCD6980004E16CE /* Screen Shot 2016-04-24 at 22.20.03 2.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AD66A291CCD62E9004E16CE /* unilog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD66A551CCD62E9004E16CE /* Build configuration list for PBXNativeTarget "unilog" */;
+			buildPhases = (
+				5AD66A261CCD62E9004E16CE /* Sources */,
+				5AD66A271CCD62E9004E16CE /* Frameworks */,
+				5AD66A281CCD62E9004E16CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unilog;
+			productName = unilog;
+			productReference = 5AD66A2A1CCD62E9004E16CE /* unilog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AD66A401CCD62E9004E16CE /* unilogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD66A581CCD62E9004E16CE /* Build configuration list for PBXNativeTarget "unilogTests" */;
+			buildPhases = (
+				5AD66A3D1CCD62E9004E16CE /* Sources */,
+				5AD66A3E1CCD62E9004E16CE /* Frameworks */,
+				5AD66A3F1CCD62E9004E16CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD66A431CCD62E9004E16CE /* PBXTargetDependency */,
+			);
+			name = unilogTests;
+			productName = unilogTests;
+			productReference = 5AD66A411CCD62E9004E16CE /* unilogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AD66A4B1CCD62E9004E16CE /* unilogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD66A5B1CCD62E9004E16CE /* Build configuration list for PBXNativeTarget "unilogUITests" */;
+			buildPhases = (
+				5AD66A481CCD62E9004E16CE /* Sources */,
+				5AD66A491CCD62E9004E16CE /* Frameworks */,
+				5AD66A4A1CCD62E9004E16CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD66A4E1CCD62E9004E16CE /* PBXTargetDependency */,
+			);
+			name = unilogUITests;
+			productName = unilogUITests;
+			productReference = 5AD66A4C1CCD62E9004E16CE /* unilogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD66A221CCD62E9004E16CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Małgorzata Dziubich";
+				TargetAttributes = {
+					5AD66A291CCD62E9004E16CE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5AD66A401CCD62E9004E16CE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5AD66A291CCD62E9004E16CE;
+					};
+					5AD66A4B1CCD62E9004E16CE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5AD66A291CCD62E9004E16CE;
+					};
+				};
+			};
+			buildConfigurationList = 5AD66A251CCD62E9004E16CE /* Build configuration list for PBXProject "unilog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD66A211CCD62E9004E16CE;
+			productRefGroup = 5AD66A2B1CCD62E9004E16CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD66A291CCD62E9004E16CE /* unilog */,
+				5AD66A401CCD62E9004E16CE /* unilogTests */,
+				5AD66A4B1CCD62E9004E16CE /* unilogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD66A281CCD62E9004E16CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD66A5F1CCD67A5004E16CE /* MainItemCell.xib in Resources */,
+				5AD66A3B1CCD62E9004E16CE /* LaunchScreen.storyboard in Resources */,
+				5AD66A691CCD6985004E16CE /* Screen Shot 2016-04-24 at 22.20.03.png in Resources */,
+				5AD66A671CCD6980004E16CE /* Screen Shot 2016-04-24 at 22.20.03 2.png in Resources */,
+				5AD66A381CCD62E9004E16CE /* Assets.xcassets in Resources */,
+				5AD66A331CCD62E9004E16CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD66A3F1CCD62E9004E16CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD66A4A1CCD62E9004E16CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD66A261CCD62E9004E16CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD66A361CCD62E9004E16CE /* unilog.xcdatamodeld in Sources */,
+				5AD66A631CCD6834004E16CE /* MainItemCell.swift in Sources */,
+				5AD66A301CCD62E9004E16CE /* MainViewController.swift in Sources */,
+				5AD66A6B1CCD69CD004E16CE /* LoginViewController.swift in Sources */,
+				5AD66A2E1CCD62E9004E16CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD66A3D1CCD62E9004E16CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD66A461CCD62E9004E16CE /* unilogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD66A481CCD62E9004E16CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD66A511CCD62E9004E16CE /* unilogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AD66A431CCD62E9004E16CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD66A291CCD62E9004E16CE /* unilog */;
+			targetProxy = 5AD66A421CCD62E9004E16CE /* PBXContainerItemProxy */;
+		};
+		5AD66A4E1CCD62E9004E16CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD66A291CCD62E9004E16CE /* unilog */;
+			targetProxy = 5AD66A4D1CCD62E9004E16CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AD66A311CCD62E9004E16CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD66A321CCD62E9004E16CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AD66A391CCD62E9004E16CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD66A3A1CCD62E9004E16CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AD66A531CCD62E9004E16CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AD66A541CCD62E9004E16CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AD66A561CCD62E9004E16CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = unilog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mdziubich.unilog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AD66A571CCD62E9004E16CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = unilog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mdziubich.unilog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AD66A591CCD62E9004E16CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = unilogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mdziubich.unilogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unilog.app/unilog";
+			};
+			name = Debug;
+		};
+		5AD66A5A1CCD62E9004E16CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = unilogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mdziubich.unilogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unilog.app/unilog";
+			};
+			name = Release;
+		};
+		5AD66A5C1CCD62E9004E16CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = unilogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mdziubich.unilogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = unilog;
+			};
+			name = Debug;
+		};
+		5AD66A5D1CCD62E9004E16CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = unilogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mdziubich.unilogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = unilog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD66A251CCD62E9004E16CE /* Build configuration list for PBXProject "unilog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD66A531CCD62E9004E16CE /* Debug */,
+				5AD66A541CCD62E9004E16CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD66A551CCD62E9004E16CE /* Build configuration list for PBXNativeTarget "unilog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD66A561CCD62E9004E16CE /* Debug */,
+				5AD66A571CCD62E9004E16CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AD66A581CCD62E9004E16CE /* Build configuration list for PBXNativeTarget "unilogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD66A591CCD62E9004E16CE /* Debug */,
+				5AD66A5A1CCD62E9004E16CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AD66A5B1CCD62E9004E16CE /* Build configuration list for PBXNativeTarget "unilogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD66A5C1CCD62E9004E16CE /* Debug */,
+				5AD66A5D1CCD62E9004E16CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5AD66A341CCD62E9004E16CE /* unilog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5AD66A351CCD62E9004E16CE /* unilog.xcdatamodel */,
+			);
+			currentVersion = 5AD66A351CCD62E9004E16CE /* unilog.xcdatamodel */;
+			path = unilog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5AD66A221CCD62E9004E16CE /* Project object */;
+}
