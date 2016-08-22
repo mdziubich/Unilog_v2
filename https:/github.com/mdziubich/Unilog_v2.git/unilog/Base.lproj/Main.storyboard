@@ -18,20 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2016-04-24 at 22.20.03.png" translatesAutoresizingMaskIntoConstraints="NO" id="wQ9-ao-tet">
+                            <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2016-04-24 at 22.20.03.png" translatesAutoresizingMaskIntoConstraints="NO" id="wQ9-ao-tet">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o3r-vX-oPQ">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o3r-vX-oPQ">
                                 <rect key="frame" x="74" y="157" width="227" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f5O-cp-hxy">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f5O-cp-hxy">
                                 <rect key="frame" x="74" y="211" width="227" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Unilog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5MA-f1-MPN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Unilog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5MA-f1-MPN">
                                 <rect key="frame" x="132" y="59" width="110" height="28"/>
                                 <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="28"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -50,17 +50,54 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="d5o-wG-0UG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7So-7O-mUJ">
+                                <rect key="frame" x="180" y="336" width="14" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXu-fz-pXK">
+                                <rect key="frame" x="215" y="356" width="86" height="30"/>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="18"/>
+                                <state key="normal" title="Register"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tH2-KV-K99">
+                                <rect key="frame" x="203" y="347" width="16" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Not Registered?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2j-ed-xbV">
+                                <rect key="frame" x="74" y="360" width="133" height="21"/>
+                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="f5O-cp-hxy" firstAttribute="centerX" secondItem="3z2-QA-ZDH" secondAttribute="centerX" id="4fD-Ng-G4Z"/>
+                            <constraint firstItem="o3r-vX-oPQ" firstAttribute="leading" secondItem="3z2-QA-ZDH" secondAttribute="leadingMargin" constant="58" id="58F-kz-hA4"/>
                             <constraint firstItem="fRP-fW-rom" firstAttribute="centerX" secondItem="3z2-QA-ZDH" secondAttribute="centerX" id="BNe-Qp-RUx"/>
                             <constraint firstItem="o3r-vX-oPQ" firstAttribute="centerX" secondItem="3z2-QA-ZDH" secondAttribute="centerX" id="Bpa-QH-eNT"/>
+                            <constraint firstItem="o3r-vX-oPQ" firstAttribute="top" secondItem="5MA-f1-MPN" secondAttribute="bottom" constant="70" id="Gds-QL-kWN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wQ9-ao-tet" secondAttribute="trailing" constant="-20" id="KfJ-f0-VwH"/>
+                            <constraint firstItem="o3r-vX-oPQ" firstAttribute="leading" secondItem="g2j-ed-xbV" secondAttribute="leading" id="NOL-UB-7gU"/>
                             <constraint firstItem="wQ9-ao-tet" firstAttribute="leading" secondItem="3z2-QA-ZDH" secondAttribute="leadingMargin" constant="-20" id="RyR-8f-KK6"/>
+                            <constraint firstItem="f5O-cp-hxy" firstAttribute="top" secondItem="o3r-vX-oPQ" secondAttribute="bottom" constant="24" id="S18-RL-QR8"/>
+                            <constraint firstItem="o3r-vX-oPQ" firstAttribute="leading" secondItem="fRP-fW-rom" secondAttribute="leading" id="TXG-Xf-Tlb"/>
+                            <constraint firstItem="o3r-vX-oPQ" firstAttribute="trailing" secondItem="eXu-fz-pXK" secondAttribute="trailing" id="Vcj-CH-ftr"/>
                             <constraint firstItem="dU6-de-xmj" firstAttribute="top" secondItem="wQ9-ao-tet" secondAttribute="bottom" id="Y03-oV-9K2"/>
+                            <constraint firstItem="o3r-vX-oPQ" firstAttribute="top" secondItem="3z2-QA-ZDH" secondAttribute="top" constant="157" id="ch7-dj-k1a"/>
+                            <constraint firstItem="o3r-vX-oPQ" firstAttribute="leading" secondItem="f5O-cp-hxy" secondAttribute="leading" id="hBl-dj-1xP"/>
                             <constraint firstItem="wQ9-ao-tet" firstAttribute="top" secondItem="3z2-QA-ZDH" secondAttribute="topMargin" id="ij3-vx-BdP"/>
+                            <constraint firstItem="o3r-vX-oPQ" firstAttribute="centerX" secondItem="5MA-f1-MPN" secondAttribute="centerX" id="suF-KW-ASJ"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="7So-7O-mUJ"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
@@ -86,6 +123,13 @@
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mNe-B4-YD7">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="579"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <toolbar key="tableFooterView" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ic2-Rh-4cb">
+                                            <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                            <items>
+                                                <barButtonItem title="Item" id="L6h-ro-Ryh"/>
+                                            </items>
+                                        </toolbar>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="enD-bW-LTI">
                                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -111,7 +155,7 @@
                                     <constraint firstAttribute="height" constant="44" id="YQn-4x-Ry1"/>
                                 </constraints>
                                 <items>
-                                    <navigationItem title="Title" id="KdO-2B-2Hx"/>
+                                    <navigationItem title="Title" id="DDa-T4-0sJ"/>
                                 </items>
                             </navigationBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o7o-Ad-i4q">
@@ -120,7 +164,7 @@
                                     <constraint firstAttribute="height" constant="44" id="KqF-PH-htl"/>
                                 </constraints>
                                 <items>
-                                    <barButtonItem title="Item" id="e4P-Ov-eHq"/>
+                                    <barButtonItem title="Item" id="dbb-4q-1kf"/>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -143,6 +187,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="338.5" y="385.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OIG-uU-bh4">
+            <objects>
+                <viewController id="tDA-P5-elZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sg6-E5-ZB4"/>
+                        <viewControllerLayoutGuide type="bottom" id="ShA-Ru-V9K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kNA-II-TS5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WGI-Dk-F2y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="801.5" y="385.5"/>
         </scene>
     </scenes>
     <resources>
