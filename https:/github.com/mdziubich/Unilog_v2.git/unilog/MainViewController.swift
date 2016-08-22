@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         test()
         test2()
+        test()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,6 +30,7 @@ class ViewController: UIViewController {
     
     func test2() {
         print("GOSIA")
+        print("Go")
     }
 }
 
