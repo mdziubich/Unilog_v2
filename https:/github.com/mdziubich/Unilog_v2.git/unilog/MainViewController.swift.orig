@@ -12,17 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        test()
 <<<<<<< HEAD
-        // Do any additional setup after loading the view, typically from a nib.
-        test()
-    }
-    
-    func test() {
-        print("GOSIA ZJADŁĄ PAĆZKA")
-        print("GOOOOOO")
 =======
-        test()
         test2()
+        test()
+        
 >>>>>>> feature1
     }
 
@@ -37,7 +32,9 @@ class ViewController: UIViewController {
     }
     
     func test2() {
+        print("kraken")
         print("GOSIA")
+        print("Go")
     }
 }
 
