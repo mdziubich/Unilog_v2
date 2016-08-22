@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         test()
+        test2()
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +24,10 @@ class ViewController: UIViewController {
 
     func test() {
         print("foooo")
+    }
+    
+    func test2() {
+        print("GOSIA")
     }
 }
 
