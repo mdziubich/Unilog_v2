@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     }
     
     func test2() {
+        print("kraken")
         print("GOSIA")
     }
 }
